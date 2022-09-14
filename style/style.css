@@ -452,7 +452,6 @@ h1, h2, h3{
 .tabs-item h2{
     text-align: left;
 }
-
 .accordion {
     transform: translateZ(0);
     background: white;
@@ -598,6 +597,7 @@ textarea {
 [type="submit"]:hover{ 
     background:#4E6BDE; 
 }
+
 /*footer*/
 
 .footer{
@@ -624,7 +624,7 @@ textarea {
   
 }
 
-/*adapt*/
+/*Адаптация под устройства*/
 @media (min-width:1920px) and (max-width:2048px) {
     .header-container{
         width: 90%;
@@ -1019,8 +1019,7 @@ textarea {
     }
     .faq-right{
         width: 65%;
-        margin-top: 0;
-        
+        margin-top: 0;       
     }
     .tabs-item h2{
         
@@ -1032,7 +1031,6 @@ textarea {
         width: 100%;
         display: flex;
         justify-content: space-between;
-    
         margin-top: 50px;
     }
 
@@ -1773,6 +1771,9 @@ textarea {
     .BtnConnect{
         height: 30px;
         border-radius: 5px;
+    }
+    .logo{
+        margin-left: 8px;
     }
     /**/
     .main-container{
